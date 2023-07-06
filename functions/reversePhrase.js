@@ -22,7 +22,11 @@ export default function reversePhrase(string) {
 
    for (let i = lastIndex; i >= 0; i--) {
       const word = words[i];
-      reversedPhrase += word + ' ';
+      reversedPhrase += word;
+
+      if (i !== 0) {
+         reversedPhrase += ' ';
+      }
    }
 
    return reversedPhrase;

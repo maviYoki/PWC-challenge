@@ -6,7 +6,7 @@
    "type": "module",
    "scripts": {
       "start": "node index.js",
-      "test": "test",
+      "test": "jest",
       "dev": "nodemon index.js"
    },
    "repository": {
@@ -16,6 +16,10 @@
    "author": "maviYoki",
    "license": "MIT",
    "devDependencies": {
+      "@babel/core": "^7.22.6",
+      "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+      "@babel/preset-env": "^7.22.6",
+      "babel-jest": "^29.6.0",
       "nodemon": "^2.0.22"
    },
    "dependencies": {
