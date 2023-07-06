@@ -27,6 +27,9 @@ export default function findBiggestPalindrome(string) {
          }
       }
    }
+   if (biggestPalindrome.length === 1) {
+      biggestPalindrome = '';
+   }
 
    return biggestPalindrome;
 }
