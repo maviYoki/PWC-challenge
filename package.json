@@ -1,0 +1,23 @@
+{
+   "name": "pwc-challenge",
+   "version": "1.0.0",
+   "description": "💻 programming challenge created by PWC for the internship.",
+   "main": "index.js",
+   "scripts": {
+      "start": "node index.js",
+      "test": "test",
+      "dev": "nodemon index.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/maviYoki/PWC-challenge"
+   },
+   "author": "maviYoki",
+   "license": "MIT",
+   "devDependencies": {
+      "nodemon": "^2.0.22"
+   },
+   "dependencies": {
+      "jest": "^29.6.0"
+   }
+}
