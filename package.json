@@ -3,6 +3,7 @@
    "version": "1.0.0",
    "description": "💻 programming challenge created by PWC for the internship.",
    "main": "index.js",
+   "type": "module",
    "scripts": {
       "start": "node index.js",
       "test": "test",
