@@ -10,10 +10,8 @@ export default function isAnagramOfPalindrome(string) {
    let oddCount = 0;
 
    for (let key in charCount) {
-      if (charCount.hasOwnProperty(key)) {
-         if (charCount[key] % 2 !== 0) {
-            oddCount++;
-         }
+      if (charCount[key] % 2 !== 0) {
+         oddCount++;
       }
    }
 

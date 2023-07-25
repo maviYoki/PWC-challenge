@@ -1,5 +1,5 @@
 export default function removeDuplicate(string) {
-   let noDuplicatesString = ''; // Helo, W
+   let noDuplicatesString = '';
 
    for (let i = 0; i < string.length; i++) {
       const char = string[i];
